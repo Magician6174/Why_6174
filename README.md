@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Magician6174/Why_6174">
-    <img src="images/6174.png" alt="Logo" width="100" height="80">
+    <img src="images/6174.png" alt="Logo" width="130" height="80">
   </a>
 
 <h3 align="center">Why 6174?</h3>
