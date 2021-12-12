@@ -63,17 +63,17 @@
   3. Subtract the smaller number from the bigger number.
   4.  Go back to step 2 and repeat.
 
-The above process, known as Kaprekar's routine, will always reach its fixed point, 6174, in at most 7 iterations.  Once 6174 is reached, the process will continue yielding $7641 – 1467$ $=$ $6174$.
+The above process, known as Kaprekar's routine, will always reach its fixed point, 6174, in at most 7 iterations.  Once 6174 is reached, the process will continue yielding 7641 – 1467 = 6174.
 Some Other Interesting Properties - 
 
-- $6174$ is a Harshad number, since it is divisible by the sum of its digits.
-- $6174$ is a 7-smooth number, i.e. none of its prime factors are greater than 7.
-- $6174$ can be written as the sum of the first three degrees of 18:
+- 6174 is a Harshad number, since it is divisible by the sum of its digits.
+- 6174 is a 7-smooth number, i.e. none of its prime factors are greater than 7.
+- 6174 can be written as the sum of the first three degrees of 18:
 
-    $18^3$ + $18^2$ + $18^1$ = $5832$ + $324$ + $18$ $=$ $6174$.
-- The sum of squares of the prime factors of $6174$ is a square:
+    18^3 + 18^2 + 18^1 = 5832 + 324 + 18 = 6174.
+- The sum of squares of the prime factors of 6174 is a square:
 
-    $2^2$ + $3^2$ + $3^2$ + $7^2$ + $7^2$ + $7^2$ $=$ $4$ + $9$ + $9$ + $49$ + $49$ + $49$ $=$ $169$ = $13^2$
+    2^2 + 3^2 + 3^2 + 7^2 + 7^2 + 7^2 = 4 + 9 + 9 + 49 + 49 + 49 = 169 = 13^2
 
 ### Built With
 This project was built with 
