@@ -132,7 +132,7 @@ Project Link: [Why_6174](https://github.com/Magician6174/Why_6174)
 ## Acknowledgments
 
 * [Wikipedia](https://en.wikipedia.org/wiki/6174_(number))
-* [YouTube](https://www.youtube.com/watch?v=d8TRcZklX_Q)
+* [Numberphile](https://www.youtube.com/watch?v=d8TRcZklX_Q)
 
  
 <p align="right">(<a href="#top">back to top</a>)</p>
