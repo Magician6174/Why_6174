@@ -136,7 +136,7 @@ Project Link: [Why_6174](https://github.com/Magician6174/Why_6174)
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Why_6174?label=CONTRIBUTORS&logo=github&style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Why_6174.svg?label=CONTRIBUTORS&logo=github&style=flat-square
 [contributors-url]: https://github.com/Magician6174/Why_6174/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Magician6174/Why_6174?label=FORKS&logo=GITHUB&style=flat-square
 [forks-url]: https://github.com/Magician6174/Why_6174/network/members
