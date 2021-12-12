@@ -64,6 +64,7 @@
   4.  Go back to step 2 and repeat.
 
 The above process, known as Kaprekar's routine, will always reach its fixed point, 6174, in at most 7 iterations.  Once 6174 is reached, the process will continue yielding 7641 – 1467 = 6174.
+
 Some Other Interesting Properties - 
 
 - 6174 is a Harshad number, since it is divisible by the sum of its digits.
