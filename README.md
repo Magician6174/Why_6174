@@ -10,29 +10,29 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Magician6174/Readme_Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Magician6174/Why_6174">
+    <img src="images/6174.png" alt="Logo" width="100" height="80">
   </a>
 
-<h3 align="center">README TEMPLATE</h3>
+<h3 align="center">Why 6174?</h3>
 
   <p align="center">
-    A Template for GitHub Readme.md
+    Number 6174!!
     <br />
-    <a href="https://github.com/Magician6174/Readme_Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Magician6174/Why_6174"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Magician6174/Readme_Template">View Demo</a>
+    <a href="https://github.com/Magician6174/Why_6174">View Demo</a>
     ·
-    <a href="https://github.com/Magician6174/Readme_Template/issues">Report Bug</a>
+    <a href="https://github.com/Magician6174/Why_6174/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Magician6174/Readme_Template/issues">Request Feature</a>
+    <a href="https://github.com/Magician6174/Why_6174/issues">Request Feature</a>
   </p>
 </div>
 
-> Subtitle or Short Description Goes Here
+> Kaprekar's constant 6174.
 
-> include terms/tags that can be searched
+> Kaprekar's constant
 
 
 <!-- TABLE OF CONTENTS -->
@@ -47,13 +47,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -63,18 +56,30 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+6174 is known as Kaprekar's constant after the Indian mathematician D. R. Kaprekar. This number is notable for the following rule:
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+  1. Take any four-digit number, using at least two different digits (leading zeros are allowed).
+  2. Arrange the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if necessary.
+  3. Subtract the smaller number from the bigger number.
+  4.  Go back to step 2 and repeat.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+The above process, known as Kaprekar's routine, will always reach its fixed point, 6174, in at most 7 iterations.  Once 6174 is reached, the process will continue yielding $7641 – 1467$ $=$ $6174$.
+Some Other Interesting Properties - 
 
+- $6174$ is a Harshad number, since it is divisible by the sum of its digits.
+- $6174$ is a 7-smooth number, i.e. none of its prime factors are greater than 7.
+- $6174$ can be written as the sum of the first three degrees of 18:
+
+    $18^3$ + $18^2$ + $18^1$ = $5832$ + $324$ + $18$ $=$ $6174$.
+- The sum of squares of the prime factors of $6174$ is a square:
+
+    $2^2$ + $3^2$ + $3^2$ + $7^2$ + $7^2$ + $7^2$ $=$ $4$ + $9$ + $9$ + $49$ + $49$ + $49$ $=$ $169$ = $13^2$
 
 ### Built With
 This project was built with 
 
-* Example
-* python --version
-* [Next.js](https://nextjs.org/)
+* python 3.8.10
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -85,49 +90,16 @@ To get a local copy up and running follow these simple example steps.
 
 Clone the repository into a local machine using
 ```shell
-git clone https://github.com/Magician6174/Readme_Template.git
+git clone https://github.com/Magician6174/Why_6174.git
 ```
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* pip
+- Run this to check for your favourite 4 digit number.
   ```sh
-  pip install ...
-* Create a new conda environment and install all the libraries by running the following command
+  python why_6174.py
 
-  ```shell
-  conda env create -f environment.yml
-  ``` 
-* The dataset used in this project is available on ...
-
-### Installation
-
-1. Step 1
-2. Step 2
-3. ...
-4. ...
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Hindi
-    - [ ] English
-    - [ ] Spanish
-
-See the [open issues](https://github.com/Magician6174/Readme_Template/issues) for a full list of proposed features (and known issues).
+- Run this file to get list of all invalid 4 digit numbers.
+  ```sh
+  python show_incorrect_numbers.py
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -153,28 +125,27 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Magician6174 - [My Email](mailto:himanshumagician@gmail.com "himanshumagician@gmail.com")
 
-Project Link: [Readme_Template](https://github.com/Magician6174/Readme_Template)
+Project Link: [Why_6174](https://github.com/Magician6174/Why_6174)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Othneil Drew](https://github.com/othneildrew)
-* [Img Shields](https://shields.io)
-* :relieved:
+* [Wikipedia](https://en.wikipedia.org/wiki/6174_(number))
+* [YouTube](https://www.youtube.com/watch?v=d8TRcZklX_Q)
 
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Readme_Template?label=CONTRIBUTORS&logo=github&style=flat-square
-[contributors-url]: https://github.com/Magician6174/Readme_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Magician6174/Readme_Template?label=FORKS&logo=GITHUB&style=flat-square
-[forks-url]: https://github.com/Magician6174/Readme_Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/Magician6174/Readme_Template?label=STARS&logo=github&style=flat-square
-[stars-url]: https://github.com/Magician6174/Readme_Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Magician6174/Readme_Template?label=ISSUES&logo=GITHUB&style=flat-square
-[issues-url]: https://github.com/Magician6174/Readme_Template/issues
-[license-shield]: https://img.shields.io/github/license/Magician6174/Readme_Template?label=LICENSE&logo=github
-[license-url]: https://github.com/Magician6174/Readme_Template/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Why_6174?label=CONTRIBUTORS&logo=github&style=flat-square
+[contributors-url]: https://github.com/Magician6174/Why_6174/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Magician6174/Why_6174?label=FORKS&logo=GITHUB&style=flat-square
+[forks-url]: https://github.com/Magician6174/Why_6174/network/members
+[stars-shield]: https://img.shields.io/github/stars/Magician6174/Why_6174?label=STARS&logo=github&style=flat-square
+[stars-url]: https://github.com/Magician6174/Why_6174/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Magician6174/Why_6174?label=ISSUES&logo=GITHUB&style=flat-square
+[issues-url]: https://github.com/Magician6174/Why_6174/issues
+[license-shield]: https://img.shields.io/github/license/Magician6174/Why_6174?label=LICENSE&logo=github
+[license-url]: https://github.com/Magician6174/Why_6174/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/himanshu-sharma-39689b205/
 [product-screenshot]: images/screenshot.png
