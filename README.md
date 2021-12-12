@@ -71,10 +71,11 @@ Some Other Interesting Properties -
 - 6174 is a 7-smooth number, i.e. none of its prime factors are greater than 7.
 - 6174 can be written as the sum of the first three degrees of 18:
 
-    18^3 + 18^2 + 18^1 = 5832 + 324 + 18 = 6174.
+    ![equation](https://latex.codecogs.com/svg.image?18^3&space;&plus;&space;18^2&space;&plus;&space;18^1&space;=&space;5832&space;&plus;&space;324&space;&plus;&space;18&space;=&space;6174.)
+    
 - The sum of squares of the prime factors of 6174 is a square:
 
-    2^2 + 3^2 + 3^2 + 7^2 + 7^2 + 7^2 = 4 + 9 + 9 + 49 + 49 + 49 = 169 = 13^2
+    <img src="https://latex.codecogs.com/svg.image?2^2&space;&plus;&space;3^2&space;&plus;&space;3^2&space;&plus;&space;7^2&space;&plus;&space;7^2&space;&plus;&space;7^2&space;=&space;4&space;&plus;&space;9&space;&plus;&space;9&space;&plus;&space;49&space;&plus;&space;49&space;&plus;&space;49&space;=&space;169&space;=&space;13^2" title="2^2 + 3^2 + 3^2 + 7^2 + 7^2 + 7^2 = 4 + 9 + 9 + 49 + 49 + 49 = 169 = 13^2" />
 
 ### Built With
 This project was built with 
