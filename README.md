@@ -137,15 +137,15 @@ Project Link: [Why_6174](https://github.com/Magician6174/Why_6174)
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Why_6174?label=CONTRIBUTORS&logo=github&style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/Magician6174/Why_6174.svg?label=CONTRIBUTORS&logo=github&style=flat-square
 [contributors-url]: https://github.com/Magician6174/Why_6174/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Magician6174/Why_6174?label=FORKS&logo=GITHUB&style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/Magician6174/Why_6174?.svglabel=FORKS&logo=GITHUB&style=flat-square
 [forks-url]: https://github.com/Magician6174/Why_6174/network/members
-[stars-shield]: https://img.shields.io/github/stars/Magician6174/Why_6174?label=STARS&logo=github&style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Magician6174/Why_6174.svg?label=STARS&logo=github&style=flat-square
 [stars-url]: https://github.com/Magician6174/Why_6174/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Magician6174/Why_6174?label=ISSUES&logo=GITHUB&style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/Magician6174/Why_6174.svg?label=ISSUES&logo=GITHUB&style=flat-square
 [issues-url]: https://github.com/Magician6174/Why_6174/issues
-[license-shield]: https://img.shields.io/github/license/Magician6174/Why_6174?label=LICENSE&logo=github
+[license-shield]: https://img.shields.io/github/license/Magician6174/Why_6174.svg?label=LICENSE&logo=github
 [license-url]: https://github.com/Magician6174/Why_6174/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/himanshu-sharma-39689b205/
