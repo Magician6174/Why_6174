@@ -83,8 +83,6 @@ while True:
         print("Or Try a new Number")
         number = input()
         number = check_num(number)
-        if number == 'Q':
-            exit()
         continue
 
         
