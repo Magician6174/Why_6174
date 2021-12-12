@@ -41,7 +41,7 @@ def check_num(number_):
                 exit()
         int(number_)
         if len(number_) > 4 or len(number_) < 4:
-            print("Please check your length of digits you entered: ")
+            print("Please check length of digits you entered: ")
             number = input()
             number = check_num(number)
             return number  
