@@ -53,37 +53,37 @@ def check_num(number_):
         number_ = input()
         number = check_num(number_)
         return number
-        
-print("Enter four digit number but not all same:")
-number = input()
-number = check_num(number)
 
-while True:
-    num = [n for n in number]
-    ascending_sort = sorted(num)
-    descending_sort = sorted(num,reverse=True)
-    large_num = list_to_num(descending_sort) # number arranged in descending order
-    small_num = list_to_num(ascending_sort) # number arranged in ascending order
-    if large_num == small_num:
-        print("Please Enter a valid 4 digit number, not all digits same:")
-        print("Or To get a list of all invalid numbers run <python show_incorrect_number.py> in seprate terminal...")
-        number = input()
-        number = check_num(number)
-        continue
+if __name__ == "__main__":
+    print("Enter four digit number but not all same:")
+    number = input()
+    number = check_num(number)
 
-    difference = large_num - small_num
-    print("Taking the difference of sorted digits...")
-    print(f"{large_num} - {small_num} = {difference}")
-    number = str(difference)
-    if difference == 6174:
-        print("The series always converges to 6174!!")
-        print("Hence 6174! Have a nice day!! ;)")
-        print("--------------------")
-        print("To exit press Q")
-        print("Or Try a new Number")
-        number = input()
-        number = check_num(number)
-        continue
+    while True:
+        num = [n for n in number]
+        ascending_sort = sorted(num)
+        descending_sort = sorted(num,reverse=True)
+        large_num = list_to_num(descending_sort) # number arranged in descending order
+        small_num = list_to_num(ascending_sort) # number arranged in ascending order
+        if large_num == small_num:
+            print("Please Enter a valid 4 digit number, not all digits same:")
+            print("Or To get a list of all invalid numbers run <python show_incorrect_number.py> in seprate terminal...")
+            number = input()
+            number = check_num(number)
+            continue
+
+        difference = large_num - small_num
+        print("Taking the difference of sorted digits...")
+        print(f"{large_num} - {small_num} = {difference}")
+        number = str(difference)
+        if difference == 6174:
+            print("The series always converges to 6174!!")
+            print("Hence 6174! Have a nice day!! ;)")
+            print("--------------------")
+            print("To exit press Q")
+            print("Or Try a new Number")
+            number = input()
+            number = check_num(number)
 
         
 
