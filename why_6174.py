@@ -76,7 +76,7 @@ while True:
     print(f"{large_num} - {small_num} = {difference}")
     number = str(difference)
     if difference == 6174:
-        print("The series converges always to 6174!!")
+        print("The series always converges to 6174!!")
         print("Hence 6174! Have a nice day!! ;)")
         print("--------------------")
         print("To exit press Q")
