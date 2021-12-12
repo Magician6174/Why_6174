@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
         difference = large_num - small_num
         print("Taking the difference of sorted digits...")
-        print(f"{large_num} - {small_num} = {difference}")
+        print(f"{str(large_num).zfill(4)} - {str(small_num).zfill(4)} = {str(difference).zfill(4)}")
         number = str(difference).zfill(4) # padding with zeros to make 4 digit number
         if difference == 6174:
             print("The series always converges to 6174!!")
