@@ -27,7 +27,7 @@ for i in range(1000  ,10000):
             break   
         
         difference = large_num - small_num
-        number = str(difference)
+        number = str(difference).zfill(4) # padding with zeros to make 4 digit number
         
         if difference == 6174:
             break
